@@ -115,24 +115,26 @@ Run TrainingUsingLogisticRegression.py and TrainingUsingSklearn.py to generate a
 ---
 
 ## 📂 Folder Structure
-
-MalignoScan/
-│
-├── README.md                         # Project documentation  
-├── requirement.txt                   # Required Python packages  
-├── data.csv                          # Training set for the model  
-├── RecordsForTesting/                # Folder containing individual test record files  
+```
+MalignoScan/  
+│  
+├── README.md                          # Project documentation  
+├── requirement.txt                    # Required Python packages  
+├── data.csv                           # Training set for the model  
+├── RecordsForTesting/                 # Folder containing individual test record files  
 │   ├── record1.txt ... record10.txt  
-├── main.py                           # Main entry point to run the project  
-├── TrainingUsingSklearn.py           # ML model training using scikit-learn  
-├── TrainingUsingLogisticRegression.py# ML model training using custom logistic regression  
-├── LogisticRegression.py             # Custom Logistic Regression implementation  
-├── Finding_Important_features.py     # Feature selection logic  
-├── PatternsInDataCsv.py              # Code to explore patterns in the dataset  
-├── Imp_ftrs_parameters.npz           # Saved model parameters (important features)  
-├── Cancer_predictor_parameters.npz   # Saved model parameters (trained weights)  
-├── data.ico                          # Application icon  
+├── main.py                            # Main entry point to run the project  
+├── TrainingUsingSklearn.py            # ML model training using scikit-learn  
+├── TrainingUsingLogisticRegression.py # ML model training using custom logistic regression  
+├── LogisticRegression.py              # Custom Logistic Regression implementation  
+├── Finding_Important_features.py      # Feature selection logic  
+├── PatternsInDataCsv.py               # Code to explore patterns in the dataset  
+├── Imp_ftrs_parameters.npz            # Saved model parameters (important features)  
+├── Cancer_predictor_parameters.npz    # Saved model parameters (trained weights)  
+├── data.ico                           #   Application icon  
+```
 
+---
 
 ## 👤 Credits
 
