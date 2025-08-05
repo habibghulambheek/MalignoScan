@@ -120,7 +120,7 @@ MalignoScan/
 │
 ├── README.md                         # Project documentation  
 ├── requirement.txt                   # Required Python packages  
-├── data/                             # Main dataset folder  
+├── data.csv                          # Training set for the model  
 ├── RecordsForTesting/                # Folder containing individual test record files  
 │   ├── record1.txt ... record10.txt  
 ├── main.py                           # Main entry point to run the project  
