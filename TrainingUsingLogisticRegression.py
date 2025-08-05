@@ -45,5 +45,5 @@ np.savez("Cancer_predictor_parameters.npz",w = w_out, b = b_out, x_mean =_x_mean
 pyplot.plot(j_hist)
 pyplot.xlabel("No of iterations")
 pyplot.ylabel("Cost")
-pyplot.title("Cost of model w.r.t iterations")
+pyplot.title("Cost function value over iterations")
 pyplot.show()
