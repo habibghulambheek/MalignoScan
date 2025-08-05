@@ -20,7 +20,7 @@ This helped deepen my understanding of how Logistic Regression functions interna
 
 Breast cancer is one of the most common types of cancer in women.  
 Early diagnosis can **significantly increase survival rates**.  
-This project uses **ML classification** to predict the chances of a tumor being maliginant(cancerous):
+This project uses **ML classification** to predict the chances of a tumor being maliginant(cancerous).
 
 ---
 
