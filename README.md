@@ -3,9 +3,10 @@
 This is a Machine Learning project that detects breast cancer using the Wisconsin dataset.  
 It includes two models:  
 - A **hand-coded Logistic Regression** from scratch  
-- A model using **Scikit-learn's LogisticRegression**  
+- A model using **Scikit-learn's LogisticRegression**
 
 The aim is to understand the working of Logistic Regression in depth and evaluate how closely a self-implemented version performs against a library model.
+
 ---
 
 ## 💡 Project Motivation
@@ -117,22 +118,21 @@ Run TrainingUsingLogisticRegression.py and TrainingUsingSklearn.py to generate a
 
 MalignoScan/
 │
-├── README.md                         # Project documentation
-├── requirement.txt                   # Required Python packages
-├── data/                             # Main dataset folde
-├── RecordsForTesting/                # Folder containing individual test record files
-│   ├── record1.txt .... record10.txt
-├── main.py                           # Main entry point to run the project
-├── TrainingUsingSklearn.py           # ML model training using scikit-learn
-├── TrainingUsingLogisticRegression.py# ML model training using custom logistic regression
-├── LogisticRegression.py             # Custom Logistic Regression implementation
-├── Finding_Important_features.py     # Feature selection logic
-├── PatternsInDataCsv.py              # Code to explore patterns in the dataset
-├── Imp_ftrs_parameters.npz           # Saved model parameters (important features)
-├── Cancer_predictor_parameters.npz   # Saved model parameters (trained weights)
-├── data.ico                          # Application icon
+├── README.md                         # Project documentation  
+├── requirement.txt                   # Required Python packages  
+├── data/                             # Main dataset folder  
+├── RecordsForTesting/                # Folder containing individual test record files  
+│   ├── record1.txt ... record10.txt  
+├── main.py                           # Main entry point to run the project  
+├── TrainingUsingSklearn.py           # ML model training using scikit-learn  
+├── TrainingUsingLogisticRegression.py# ML model training using custom logistic regression  
+├── LogisticRegression.py             # Custom Logistic Regression implementation  
+├── Finding_Important_features.py     # Feature selection logic  
+├── PatternsInDataCsv.py              # Code to explore patterns in the dataset  
+├── Imp_ftrs_parameters.npz           # Saved model parameters (important features)  
+├── Cancer_predictor_parameters.npz   # Saved model parameters (trained weights)  
+├── data.ico                          # Application icon  
 
----
 
 ## 👤 Credits
 
