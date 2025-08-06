@@ -1,17 +1,18 @@
 import numpy as np
 from sklearn.ensemble import RandomForestClassifier
 import pandas as pd
+from sklearn.model_selection import train_test_split
 
 x_cols =  np.array(["radius_mean","texture_mean","perimeter_mean","area_mean","smoothness_mean","compactness_mean","concavity_mean","concave points_mean","symmetry_mean","fractal_dimension_mean","radius_se","texture_se","perimeter_se","area_se","smoothness_se","compactness_se","concavity_se","concave points_se","symmetry_se","fractal_dimension_se","radius_worst","texture_worst","perimeter_worst","area_worst","smoothness_worst","compactness_worst","concavity_worst","concave points_worst","symmetry_worst","fractal_dimension_worst"])
 
 df = pd.read_csv("data.csv")
 y = df["diagnosis"]
 x = df.drop(["diagnosis","id"], axis  = 1)
-
+x_train, x_test, y_train, y_test = train_test_split(x,y,random_state=42,test_size=0.2)
 model = RandomForestClassifier(random_state=42)
-model.fit(x,y)
+model.fit(x_train,y_train)
 importance  = model.feature_importances_
-imp_cols = list(zip(x.columns, importance))
+imp_cols = list(zip(x_train.columns, importance))
 imp_cols.sort(key = lambda x:x[1],reverse=True)
 imp = 0
 # predicting important columns and how much each contribute to prediction, 

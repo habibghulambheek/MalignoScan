@@ -99,15 +99,13 @@ Run TrainingUsingLogisticRegression.py and TrainingUsingSklearn.py to generate a
   * You can manually input values or load from a `.txt` file containing comma-separated values:
 
     ```
-    perimeter_worst, concave points_worst, concave points_mean, area_worst, radius_worst, area_mean,
-    concavity_mean, area_se, radius_mean, perimeter_mean, concavity_worst, perimeter_se, texture_worst,
-    radius_se, compactness_worst
+   concave points_worst, area_worst, concave points_mean, perimeter_worst, radius_worst, area_mean, concavity_mean, radius_mean, area_se, perimeter_mean, concavity_worst, texture_worst, perimeter_se, texture_mean, compactness_worst
     ```
 
     Example:
 
     ```
-    152.5,0.2430,0.12790,209.0,23.57,303.0,0.1974,34.03,19.69,123.4,0.6869,4.585,25.53,0.7456,0.8663
+    0.110, 1800.0, 0.100, 175.0, 20.00, 1200.0, 0.200, 18.00, 380.0, 110.0, 0.450, 30.00, 12.50, 22.00, 0.500
     ```
 
   * The model predicts the **percentage chance of malignancy**.

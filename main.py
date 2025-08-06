@@ -26,22 +26,23 @@ mainFrame.pack()
 
 # Giving more understandable names to all features
 col_names = np.array([
-    "Perimeter (Worst Case)",             # perimeter worst
-    "Concave Points (Worst Case)",        # concave points worst
-    "Concave Points (Average)",           # concave points mean
-    "Tumor Area (Worst Case)",            # area_worst
-    "Radius (Worst Case)",                # radius_worst
-    "Tumor Area (Average)",               # area_mean
-    "Concavity (Average Depth)",          # concavity_mean
-    "Tumor Area Variation",               # area_se
-    "Radius (Average)",                   # radius_mean
-    "Perimeter (Average)",                # perimeter_mean
-    "Concavity (Worst Case)",             # concavity_worst
-    "Perimeter Variation",                # perimeter_se
-    "Texture Irregularity (Worst Case)",  # texture worst
-    "Radius Variation",                   # radius se
-    "Compactness (Worst Case)"            # compactness worst
+    "Concave Points (Worst Case)",        # concave points_worst: 0.1572
+    "Tumor Area (Worst Case)",            # area_worst: 0.1254
+    "Concave Points (Average)",           # concave points_mean: 0.1214
+    "Perimeter (Worst Case)",             # perimeter_worst: 0.1181
+    "Radius (Worst Case)",                # radius_worst: 0.0798
+    "Tumor Area (Average)",               # area_mean: 0.0584
+    "Concavity (Average Depth)",          # concavity_mean: 0.0475
+    "Radius (Average)",                   # radius_mean: 0.0344
+    "Tumor Area Variation",               # area_se: 0.0342
+    "Perimeter (Average)",                # perimeter_mean: 0.0283
+    "Concavity (Worst Case)",             # concavity_worst: 0.0255
+    "Texture Irregularity (Worst Case)",  # texture_worst: 0.0184
+    "Perimeter Variation",                # perimeter_se: 0.0182
+    "Texture Irregularity (Average)",     # texture_mean: 0.0172
+    "Compactness (Worst Case)"            # compactness_worst: 0.0152
 ])
+
 
 n = col_names.shape[0]
 
